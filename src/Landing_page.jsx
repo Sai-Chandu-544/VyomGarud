@@ -38,8 +38,8 @@ export const Landing_Page = () => {
         ))}
 
 
-
-        <div className="relative z-10 flex flex-col justify-between items-center h-[500px] md:h-[700px] text-center text-white px-4">
+<section id="Landing_Page">
+   <div className= " relative z-10 flex flex-col justify-between items-center h-[500px] md:h-[700px] text-center text-white px-4">
           <div className="pt-28 w-full">
             <BlurText delay={150} animateBy="words" direction="top" className="lg:text-5xl sm:text-2xl mb-8 flex justify-center items-center">
               Welcome to Our <span className="text-[#ff7b00] font-bold">VyomGarud</span>
@@ -56,7 +56,11 @@ export const Landing_Page = () => {
             </a>
           </div>
         </div>
-      </div>
+ 
+
+</section>
+     </div>
+       
 
 
 
